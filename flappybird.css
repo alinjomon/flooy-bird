@@ -1,0 +1,43 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgba(228, 179, 2, 0.5),
+    rgba(14, 191, 244, 0.5)
+  );
+}
+
+#board {
+  background-image: url("./flappybirdbg.png");
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  color: rgb(231, 7, 7);
+}
+
+#gameOverMessage {
+  display: none;
+  position: fixed;
+  top: 20%;
+  right: 10%;
+  background: rgba(255, 0, 0, 0.8);
+  color: white;
+  border: 3px solid black;
+  padding: 20px;
+  text-align: center;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+#finalScore,
+#highScore {
+  font-size: 18px;
+}
+
+#continueMessage {
+  font-size: 16px;
+  color: yellow;
+}
